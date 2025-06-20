@@ -29,9 +29,11 @@ physics:
       OpHitLabel:           "ophit10ppm"
       HitLabel:             "gaushit"
       GEANT4Label:          "largeant"
-      DetectorSizeX:        600  # cm
-      DetectorSizeY:        1200  # cm
-      DetectorSizeZ:        2100 # cm
+      IonAndScintLabel:     "IonAndScint"
+      DetectorSizeX:        680   # cm
+      DetectorSizeY:        1500  # cm
+      DetectorSizeZ:        2100  # cm
+      Exampleevt:           13050
       SignalLabel:          "marley"
       BackgroundLabelVector: [
                             "Ar39GenInLAr",
